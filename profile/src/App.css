@@ -3,3 +3,187 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+#page-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  width: 80%;
+  margin: 40px auto;
+}
+
+#sidebar {
+  margin-right: -80px;
+}
+
+#profile-pic {
+  border-radius: 50%;
+  width: 75%;
+  margin-bottom: 20px;
+}
+
+#name {
+  font-weight: bolder;
+  font-size: 26px;
+  margin-bottom: 2px;
+}
+
+#username {
+  margin-bottom: 20px;
+}
+
+#follow {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  width: 50%;
+  border-radius: 5px;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+
+#dots {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  width: 20%;
+  margin-left: 10px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+
+#location {
+  margin-top: 30px;
+  border-bottom: 1px solid grey;
+  width: 72%;
+  padding-bottom: 20px;
+}
+
+#blog {
+  margin-top: 20px;
+}
+
+#email {
+  margin-top: 5px;
+}
+
+#website {
+  margin-top: 5px;
+}
+
+#navbar {
+  display: flex;
+  column-gap: 40px;
+  margin-bottom: 30px;
+}
+
+.nav-option {
+  cursor: pointer;
+}
+
+#nav-repos {
+  font-weight: bolder;
+  border-bottom: 2px solid rgb(255, 123, 0);
+  padding-bottom: 8px;
+}
+
+#repo-number {
+  font-weight: lighter;
+  font-size: 12px;
+  background: rgb(218, 218, 218);
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 10px;
+}
+
+#search-row {
+  width: 100%;
+  border-bottom: 1px solid grey;
+  margin-bottom: 30px;
+  padding-bottom: -50px;
+}
+
+#search {
+  width: 70%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+.select {
+  margin-left: 15px;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  background: rgb(245, 245, 245);
+}
+
+#repo-list {
+  list-style: none;
+}
+
+.repo {
+  margin-bottom: 40px;
+  border-bottom: 1px solid grey;
+  padding-bottom: 25px;
+}
+
+.repo-name {
+  font-size: 18px;
+  font-weight: bolder;
+  cursor: pointer;
+  text-decoration: none;
+  color: blue;
+}
+
+.repo-name:visited {
+  color: blue;
+}
+
+.repo-name:hover {
+  text-decoration: underline;
+}
+
+.language {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+hr {
+  position: relative;
+  top: 70px;
+  z-index: -1;
+}
+
+.lang-flex {
+  display: flex;
+  align-items: center;
+}
+
+#lang-dot {
+  font-size: 40px;
+}
+
+.red {
+  color: #d25735;
+}
+
+.yellow {
+  color: #eee070;
+}
+
+.purple {
+  color: purple;
+}
+
+.repo-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.star {
+  padding: 5px;
+  cursor: pointer;
+}
